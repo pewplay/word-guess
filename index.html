@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Guess</title>
+  <link rel="stylesheet" href="style.css">
+  <style>:root { --bg: #121420; --accent: #5ac46e; }</style>
+</head>
+<body>
+  <main id="game-container">
+    <canvas id="game" aria-label="Word Guess game area"></canvas>
+
+    <div class="topbar">
+      <button id="pause-btn" class="icon-btn" type="button" aria-label="Pause"></button>
+      <button id="mute-btn" class="icon-btn" type="button" aria-label="Mute"></button>
+    </div>
+
+    <!-- Menu / pausa / fine partita -->
+    <div id="overlay" class="overlay">
+      <div class="overlay-content">
+        <h1 id="overlay-title"></h1>
+        <p id="overlay-text"></p>
+        <div id="overlay-choices"></div>
+        <div id="overlay-buttons"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Percorsi SEMPRE relativi: il gioco viene pubblicato in /<nome-repo>/play/ -->
+  <script src="kit.js"></script>
+  <script src="words.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

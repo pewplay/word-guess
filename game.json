@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Word Guess",
+  "description": "Guess the hidden five-letter word in six tries with green and yellow clues. A new daily word plus unlimited play, free in your browser.",
+  "about": "Word Guess is a daily word puzzle for anyone who loves a quick brain teaser. There is a hidden five-letter English word and you have six tries to find it. After every guess the letters change color: green means the letter is in the word and in the right place, yellow means it is in the word but somewhere else, and gray means it is not in the word at all.\n\nEvery day brings a new Daily word that is the same for every player, so you can compare results with friends using the Copy result button, which shares your colored grid without spoilers. When you want more, switch to Unlimited mode and play as many words as you like.\n\nYour statistics, win rate, current streak and guess distribution are saved for each mode.",
+  "howToPlay": "Type a five-letter word and press Enter. Each tile then turns green, yellow or gray to show how close you are. Use the clues to narrow down the word and find it in six guesses or fewer. Every guess must be a valid English word.",
+  "controls": [
+    {
+      "input": "Keyboard",
+      "action": "Type letters, Enter to submit, Backspace to delete"
+    },
+    {
+      "input": "Tap / Click",
+      "action": "Use the on-screen keyboard"
+    },
+    {
+      "input": "Esc",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Start with a word that uses common letters such as A, E, R, S and T.",
+    "Use your second guess to test new letters instead of repeating known ones.",
+    "Remember that a letter can appear more than once in the answer.",
+    "Look at the keyboard colors to see which letters you have not tried yet."
+  ],
+  "faq": [
+    {
+      "question": "Is Word Guess free to play?",
+      "answer": "Yes. Word Guess is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. The game has a large on-screen keyboard designed for touch, and it works in portrait and landscape."
+    },
+    {
+      "question": "When does the daily word change?",
+      "answer": "A new Daily word is available every day at midnight UTC. Unlimited mode lets you keep playing new words at any time."
+    }
+  ],
+  "category": "Word",
+  "tags": [
+    "word game",
+    "daily puzzle",
+    "five letters",
+    "vocabulary",
+    "brain teaser"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
